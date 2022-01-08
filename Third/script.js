@@ -1,5 +1,5 @@
 var button = document.querySelector('.button')
-var headLine = document.querySelector('.header')
+var headline = document.querySelector('.header')
 
 button.onclick = function validateForm() 
     {
@@ -11,5 +11,5 @@ button.onclick = function validateForm()
             alert('The password is incorrect');
             return false;
         }
-        headLine.innerText = 'The information in this form is correct!!';
+        headline.innerText = 'The information is correct';
     }
